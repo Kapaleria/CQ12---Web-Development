@@ -1,0 +1,33 @@
+
+body{
+    height: 800px;
+    display: flex;
+    /* align affects vertical alignment */
+    align-items: center;
+
+    /* justify affects the horizontal alignment */
+    justify-content: center;
+}
+
+
+
+.outer{
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+#box1{
+    height: 400px;
+    width: 200px;
+    background-color: aquamarine;
+}
+
+#box2{
+    height: 400px;
+    width: 200px;
+    background-color: aqua;
+}
