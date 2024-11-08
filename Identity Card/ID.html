@@ -1,0 +1,95 @@
+<!-- add boilerplate code here; -->
+<!-- short cut is Exclamation mark (SHIFT+1) -->
+
+
+<!-- the shortcut for commenting is CTRL+/ -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identity Card</title>
+    <!-- internal css -->
+
+        <style>
+            /* NOTICE THE DIFFERENCE BETWEEN STYLING IN HTML AND CSS  */
+            /* the same shortcut but different results */
+
+
+            /* element selector eg img, div, p, table*/
+            
+                /* dealing with IDs */
+                #card{
+                    /* solid color names, rgb, rgba */
+                        background-color: rgb(238, 235, 237);
+                        width:400px;
+                        margin: 20px;
+                }
+
+                #names{
+                    padding: 2px;
+                    background-color: azure;
+                }
+
+                #info{
+                    background-color: blanchedalmond;
+                }
+
+                #footer{
+                    background-color: aquamarine;
+                }
+
+        </style>
+                <!-- cascading style sheets -->
+        <link rel="stylesheet" href="ID.css">
+
+</head>
+
+
+<body>
+    <!-- SELECTORS: Element, ID, Class -->
+    <div id="card" >
+
+        <!-- inline css -->
+         <div id="heading">
+         <h3 style="color: blue;">Code Queen University</h3>
+         <h4 style="color: red;">We are the code stars</h4>
+        </div>
+
+        <div id="horizontal">
+
+                 <div class="image">
+                  <img id="photo" src="irene.jpg" alt="irene's headshot photo"/>
+                 </div>
+            
+                 <!-- div#names -->
+
+                <div id="names">
+                   <p id="myName">Nakabugo Irene</p>
+                   <p>Software Engineer</p>
+                </div>
+
+        </div>
+
+
+        <div id="info">
+            <p>ID Number: 100674555</p>
+            <p>Department: ICT</p>
+            <p class="clearance">Level of Clearance: 3</p>
+            <p id="date">Date Issued: 10/10/2024</p>
+            <p>Date of Expiry:10/10/2025</p>
+        </div>
+
+        <div id="footer">
+            <p>2024</p>
+        </div>
+
+        
+
+
+    </div>
+
+    
+</body>
+</html>
